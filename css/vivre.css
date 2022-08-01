@@ -1,0 +1,354 @@
+color1:#14C04F /*verde*/
+color2:#F9F9F9 /*gris claro*/
+color3:#FFC077  /*naranja claro*/
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    height: 93px;
+}
+
+.navbar h5{
+    font-size: 1.1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.4);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.nav a:-webkit-any-link {
+    color: #000000;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #000000;
+    text-decoration: none;
+    background-color: #F9F9F9;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.dropdown-menu {
+    
+    border: none;
+    
+}
+
+li {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#bn {  
+    height: 488px;
+    background-image: url(../images/si.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#bn-index h4 {   
+    font-weight: 700;
+    font-size: 20vw;
+    line-height: 0.5;   
+}
+
+#bn-index h2 {
+    
+    font-weight: 500;
+    font-size: 4.65vw;
+    line-height: 1.4;
+    margin-top: 50px; 
+}
+
+
+#bn-index h3 {
+
+    font-weight: 500;
+    font-size: 2.82vw;
+    line-height: 3.4;
+}
+
+
+#bn-box-int {
+    position: relative;
+    height: 488px;
+    background-image: url(../images/plantasinterior.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bn-box-ex {
+    position: relative;
+    height: 488px;
+    background-image: url(../images/51.png);
+    background-size: cover;
+    background-position: center;
+    --bs-gutter-x: 0rem;
+}
+
+#bn-box-sus {
+    position: relative;
+    height: 488px;
+    background-image: url(../images/susban.png);
+    background-size: cover;
+    background-position: center;
+    --bs-gutter-x: 0rem;
+
+}
+
+#bn-box-mac {
+    position: relative;
+    height: 488px;
+    background-image: url(../images/macetasban.png);
+    background-size: cover;
+    background-position: center;
+}  
+
+
+
+h1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 13.3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+    
+
+.btn-primary {
+    color: #fff;
+    background-color: #14C04F;
+    border-color: #14C04F;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #14C04F;
+    border-color: #14C04F;
+    opacity: .5;
+}
+
+.btn-primary:active {
+    box-shadow: none;
+
+}
+
+.btn-primary:focus{    
+    background-color: #14C04F;
+    border-color: #14C04F;
+    box-shadow: none;
+}
+
+.card {
+    border: 0;
+    width: 100%;
+} 
+
+.btn {
+    font-weight: 500;
+    font-size: 19px;
+    width: 10rem;
+}
+
+#inter1 .row {
+        border: 1px solid #F9F9F9;
+        margin-top: 80px;
+}
+
+.box1 {
+    height: 100%;
+    background-color: #F9F9F9;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 30px;
+  
+}
+
+p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 2.5;
+
+}
+
+#sus p{
+    line-height: 1.6;
+}
+
+
+#nos {
+    
+    height: 397.48px;
+    background-image: url(../images/nosdos.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#nos1 img{
+    height: 170px;
+    width: 350px;
+}
+
+#nos2 p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: var(--bs-body-line-height);
+}
+
+#sus, #mac p{
+    line-height: 1.6;
+}
+
+
+#nos3 img{
+    height: 145px;
+}
+
+#nos3 {       
+        margin-bottom: 30px;
+}
+
+.precio {
+    width: 170px;
+    height: 75px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 45.5px;
+    color: #14C04F;
+    float: right;
+}
+
+
+.box {
+    position: absolute;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.07;
+}
+
+#bn-internas .box {
+       opacity: 0.13;
+}
+
+#inter2 p {
+    font-size: 17px;
+    line-height: 1;
+}
+
+
+#inter2 .row {
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+#index2 .card{
+    border-radius: 4px;  
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+ 
+
+}
+
+#index2 .card:hover{
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#index2 .card{
+    border-radius: 4px;
+    
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+ 
+
+}
+
+#index3 .card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  
+}
+
+#index2 {
+    margin-top: 80px;
+}
+
+#index2 img{
+    height: 500px;
+}
+
+#margin h2 {      
+       font-weight: 700;
+       font-size: 71px;
+       margin-top: 177.58px;
+}
+
+#index3 img{
+     height: 249.9px;
+ }
+
+#margin2 h2 {
+       font-weight: 700;
+       font-size: 71px;
+
+       margin-top: 51.9px;
+
+ }
+
+#foot { 
+    height: 100%;
+}
+
+#margin3 {
+        margin-top: 85px;
+}
+
+#foot img{
+    height: 60px;
+    width: 60px;
+
+}
+
+#foot, #bg-color {
+    background-color: #FFC077 ;
+}
+
+
+#footer-text {
+    font-weight: 500;
+    font-size:  23px;
+    margin-top: 25px;
+}
+
+
+
